@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".OnlineLoginActivity">
+
+    <TextView
+        android:id="@+id/tvLoginUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="ID"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:background="#000"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/tvSendRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Send request to"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:background="#000"
+                android:alpha="0.6"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"/>
+
+            <ListView
+                android:id="@+id/lv_loginUsers"
+                android:background="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvAcceptRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Accept request from"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:background="#000"
+                android:alpha="0.6"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"/>
+
+            <ListView
+                android:id="@+id/lv_requestedUsers"
+                android:background="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+</LinearLayout>

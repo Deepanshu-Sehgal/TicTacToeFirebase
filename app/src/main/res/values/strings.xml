@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="heading">Welcome To Tic-Tac-Toe</string>
+    <string name="grid">our main grid</string>
+    <string name="create_room">Create room</string>
+
+    <string name="single_player">Single Player</string>
+    <string name="online">Online</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+
+    <string name="label_player_turn">Turn</string>
+    <string name="turn_human">Its yours</string>
+    <string name="turn_computer">Computer</string>
+
+    <string name="about_note">
+        This game is made for the course "Basics of Android" by
+        \nDeepanshu Sehgal
+        \nxyz.@gmail.com
+
+    </string>
+    <string name="offline_with_friends">Play with friends Offline</string>
+
+</resources>
